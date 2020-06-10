@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Covid-19</string>
+
+
+    <!-- Main Activity   -->
+    <string name="lattestNews_button">Latest News</string>
+    <string name="instructions_button">Instructions</string>
+    <string name="questions_butoon">Check Status</string>
+
+
+    <!-- Check Status Activity   -->
+    <string name="check">Check Status</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Result Activity   -->
+    <string name="retry">Retry</string>
+
+    <string name="instruction">Instructions</string>
+    <string name="pre">previous</string>
+    <string name="next">next</string>
+</resources>

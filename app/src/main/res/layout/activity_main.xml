@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    >
+
+    <Button
+        android:textSize="24sp"
+        android:layout_marginTop="280dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_weight="0"
+        android:background="@drawable/button_shape"
+        android:onClick="openLink"
+        android:text="@string/lattestNews_button"
+        android:textColor="@color/white" />
+
+    <Button
+        android:onClick="openInstruction"
+        android:textSize="24sp"
+        android:layout_marginVertical="8dp"
+        android:layout_marginHorizontal="24dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_shape"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="@string/instructions_button" />
+
+    <Button
+        android:onClick="checkStatus"
+        android:textSize="24sp"
+        android:id="@+id/button3"
+        android:layout_marginVertical="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_weight="0"
+        android:background="@drawable/button_shape"
+        android:text="@string/questions_butoon"
+        android:textColor="@color/white" />
+</LinearLayout>

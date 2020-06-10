@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout"
+    android:background="@drawable/smell_img"
+    tools:context=".CheckStatusActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/check"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="300dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/question"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="Do you suffer from a sense of taste and smell?"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:onClick="yesButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/yes"
+            android:id="@+id/trueButton"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:background="@drawable/true_button"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"/>
+
+        <Button
+            android:onClick="noButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/no"
+            android:id="@+id/falseButton"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:background="@drawable/false_button"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
